@@ -1,0 +1,51 @@
+export const title= `I am a full-stack web developer
+             specializing in React.js 
+             based web apps. I Launched multiple projects
+             from the empty repository to fully-functional
+             production deployments. and I've been working on different 
+             areas of Computer Tech since 1997. My main field of
+             interest is developing static and dynamic, responsive
+             (mobile device friendly) websites. Integrating APIs such 
+             as PayPal, googles' Captcha, reCAPTCHA etc. Besides HTML5 and Bootstrap,Materail ui
+             I use Reactjs as my main Framework for web development and customized
+             solutions. You can always contact me to plan/develop your project!
+             
+             `
+
+
+
+
+
+
+const experts=`Expertise :
+✔ Newer specifications of EcmaScript(ES6 & ES7), Knowledge of functional programming and object-oriented programming paradigms
+✔ Thorough understanding of React.js and Vue.js framework and its core principles such as components, reactivity, and the virtual DOM
+✔ Popular React.js workflows (such as Redux, React Hooks,Formik Form,React-Router-Dom)
+✔ Familiarity with the Vue.js ecosystem,including Vue CLI,Vuex,Vue Router, and Nuxt.js
+✔ Isomorphic React, modern authorization mechanisms, such as JWT authentication.
+✔ Collaborate with back-end to connect API (redux-API-middleman, data structure conversion,login auth)
+✔ Proficiency with modern development tools, like Babel, Webpack, Gulp, NPM, Yarn, and Git
+✔ Experience with both consuming and designing RESTful APIs`    
+
+
+
+const Technologies =`stack:
+✔ Frontend: React.JS/Vue.JS
+✔ Backend: Laravel/PHP/Wordpress/Yii, Firebase
+✔ Database: MongoDB, PostgreSQL, Mysql, NoSQL
+✔ Other: Nginx, Apache, Docker, AWS, Google Cloud API, Firebase`
+
+
+const howItWork=`App Spec
+Buyer need to provide me a full specifications for the app's functionality and features.`
+
+const packege1=`$800 
+Save up to 5% with Subscribe to 
+Save Weekly Basis I will work on weekly basis - 40 Hour per week.
+7 Days Delivery
+Unlimited Revisions
+10 pages
+Design customization
+Content upload
+Responsive design
+Include source code`
