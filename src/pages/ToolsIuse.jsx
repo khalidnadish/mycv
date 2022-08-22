@@ -15,7 +15,7 @@ import ae from "../assets/1x/ae.png";
 
 import html from "../assets/1x/HTML.png";
 import css from "../assets/1x/CSS.png";
-import js from "../assets/1x/Js.png";
+import js from "../assets/1x/Js1.png";
 import flask from "../assets/1x/flask.png";
 import paython from "../assets/1x/python-48.png";
 import rc from "../assets/1x/react.png";
