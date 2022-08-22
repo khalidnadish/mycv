@@ -28,14 +28,16 @@ export const l5 = `I am Free Lancer`;
 
 
 export const experts=`Expertise :
-✔ Newer specifications of EcmaScript(ES6 & ES7), Knowledge of functional programming and object-oriented programming paradigms
-✔ Thorough understanding of React.js and Vue.js framework and its core principles such as components, reactivity, and the virtual DOM
-✔ Popular React.js workflows (such as Redux, React Hooks,Formik Form,React-Router-Dom)
-✔ Familiarity with the Vue.js ecosystem,including Vue CLI,Vuex,Vue Router, and Nuxt.js
-✔ Isomorphic React, modern authorization mechanisms, such as JWT authentication.
-✔ Collaborate with back-end to connect API (redux-API-middleman, data structure conversion,login auth)
-✔ Proficiency with modern development tools, like Babel, Webpack, Gulp, NPM, Yarn, and Git
-✔ Experience with both consuming and designing RESTful APIs`    
+✔ designing 
+    logo-flyer-ui-social meda 
+  aminmaton
+    white bord
+  vido editing
+        primare
+   codeing
+        4 website as acard with livedemo         
+    `
+    
 
 
 

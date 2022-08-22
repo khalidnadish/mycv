@@ -1,0 +1,11 @@
+.chractor{
+    position: absolute;
+    bottom: 20px;
+    right: 80px;
+    width: 158px;
+    height: 200px;
+    background-color: transparent;
+    background-image:url("../src/assets/pageImage/aboutme.png"); 
+    z-index: 1;
+    transform: rotate(-10deg);
+}

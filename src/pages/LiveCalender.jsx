@@ -1,17 +1,72 @@
 import React from 'react'
 import {title,experts,l1,l2,l3,l4,l5} from "../helper/en"
 import { Typography } from '@mui/material'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import "swiper/css/pagination";
+import { Pagination } from "swiper";
+import 'swiper/css';
+import "swiper/css/navigation";
+import { Navigation } from "swiper";
+import Q from "../assets/prevWorker/alguthi.png";
+import S from "../assets/prevWorker/alsuraia.png";
+import SB from "../assets/prevWorker/weeklyNews.png";
+
 function LiveCalender() {
   return (
     <>
       <Typography variant="h2" textAlign="left" pl={2} mt={2}>
         LiveCalender
       </Typography>
+<div className='swiper_div'>
+  
+      <Swiper
+        spaceBetween={20}
+        slidesPerView={1}
+         
+        modules={[Navigation,Pagination]}
+        pagination={true}
+        navigation={true}
+        // navigation
+        // pagination={{ clickable: true }}
+        // scrollbar={{ draggable: true }}
+      >
+        <SwiperSlide className='SwiperSlide_div'>
+          {" "}
+          <X1 />
+        </SwiperSlide>
+        <SwiperSlide>
+          {" "}
+          <X2 />
+        </SwiperSlide>
+        <SwiperSlide>
+          {" "}
+          <X3 />
+        </SwiperSlide>
+        <SwiperSlide>
+          <X4 />
+        </SwiperSlide>
+        <SwiperSlide>
+          {" "}
+          <X5 />
+        </SwiperSlide>
+      </Swiper>
+      </div>
+    </>
+  );
+}
 
-      <Typography
-        variant="body1"
+export default LiveCalender
+
+const X1=()=>{
+  return(
+    <>
+    <div className='div_worker'>
+    <img src={Q} alt="" className="img_worker" />
+    </div>
+    <Typography
+      variant="h6"
         textAlign="left"
-        color="primary.main"
+        // color="primary.main"
         pl={2}
         mt={2}
       >
@@ -21,10 +76,21 @@ function LiveCalender() {
         {l1}
       </Typography>
 
-      <Typography
-        variant="body1"
+    
+    </>
+  )
+}
+
+const X2=()=>{
+  return(
+    <>
+    <div className='div_worker'>
+    <img src={S} alt="" className="img_worker" />
+    </div>
+   <Typography
+        variant="h6"
         textAlign="left"
-        color="primary.main"
+        // color="primary.main"
         pl={2}
         mt={2}
       >
@@ -34,10 +100,18 @@ function LiveCalender() {
         {l2}
       </Typography>
 
-      <Typography
-        variant="body1"
+    
+    </>
+  )
+}
+const X3=()=>{
+  return(
+    <>
+    
+    <Typography
+       variant="h6"
         textAlign="left"
-        color="primary.main"
+        // color="primary.main"
         pl={2}
         mt={2}
       >
@@ -47,10 +121,20 @@ function LiveCalender() {
         {l3}
       </Typography>
 
-      <Typography
-        variant="body1"
+    
+    </>
+  )
+}
+const X4=()=>{
+  return(
+    <>
+    <div className='div_worker'>
+    <img src={SB} alt="" className="img_worker" />
+    </div>
+    <Typography
+       variant="h6"
         textAlign="left"
-        color="primary.main"
+        // color="primary.main"
         pl={2}
         mt={2}
       >
@@ -59,10 +143,19 @@ function LiveCalender() {
       <Typography variant="body1" textAlign="left" ml={5}>
         {l4}
       </Typography>
-      <Typography
-        variant="body1"
+
+    
+    </>
+  )
+}
+
+const X5=()=>{
+  return(
+    <>
+    <Typography
+        variant="h6"
         textAlign="left"
-        color="primary.main"
+        // color="primary.main"
         pl={2}
         mt={2}
       >
@@ -71,8 +164,8 @@ function LiveCalender() {
       <Typography variant="body1" textAlign="left" ml={5}>
         {l5}
       </Typography>
-    </>
-  );
-}
 
-export default LiveCalender
+    
+    </>
+  )
+}

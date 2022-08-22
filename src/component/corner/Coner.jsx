@@ -6,21 +6,24 @@ import { FaDonate } from "react-icons/fa";
 import { ProfileDetail } from "../../helper/context";
 
 export const Coner = () => {
-  const { setActiveLink ,activeLang,
-    setActiveLang} = useContext(ProfileDetail);
+  const { setActiveLink, activeLang, setActiveLang } =
+    useContext(ProfileDetail);
   const conerStyle = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    cursor: "pointer",
+
+
   };
-  const handleLanguage=()=>{
-    setActiveLang(pre=>!activeLang)
+  const handleLanguage = () => {
+    setActiveLang((pre) => !activeLang);
     if (activeLang) {
-      document.dir="ltr"
-    }else{
-      document.dir="rtl"
+      document.dir = "ltr";
+    } else {
+      document.dir = "rtl";
     }
-  }
+  };
   return (
     <>
       <div
@@ -31,7 +34,11 @@ export const Coner = () => {
         <TbFreeRights color="white" size={"1.5rem"} />
       </div>
 
-      <div className="topright" style={conerStyle} onClick={() => handleLanguage()}>
+      <div
+        className="topright"
+        style={conerStyle}
+        onClick={() => handleLanguage()}
+      >
         <MdLanguage color="white" size={"1.5rem"} />
         {activeLang}
       </div>
@@ -40,7 +47,11 @@ export const Coner = () => {
         <CgDarkMode color="white" size={"1.5rem"} />
       </div>
 
-      <div className="buttomright" style={conerStyle} onClick={() => setActiveLink("/paypal")}>
+      <div
+        className="buttomright"
+        style={conerStyle}
+        onClick={() => setActiveLink("/paypal")}
+      >
         <FaDonate color="white" size={"1.5rem"} />
       </div>
     </>

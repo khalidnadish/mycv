@@ -1,3 +1,35 @@
+:root{
+  --bluecolor:#1976d2;
+  --bluelightcolor:#5aa1e7;
+  --redcolor:#d32f2f;
+  --greencolor:#2e7d32;
+  --orangecolor:#ed6c02;
+  --purbecolor:#9c27b0;
+  --textcolor:#ffffff;
+
+
+
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-transition: all 0.5s 0s ease;
+-moz-transition: all 0.5s 0s ease;
+-o-transition: all 0.5s 0s ease;
+transition: all 0.5s 0s ease;
+  }
+  body{
+    max-width: 100vw;
+    height: 80vh;
+    overflow-x: hidden;
+  }
+  html{
+    scroll-behavior: smooth;
+    /* scrollbar-color: var(--bluelightcolor); */
+  }
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -9,8 +41,8 @@
 
 
 .container {
-  width: 80vw;
-  height: 80vh;
+  width: 90vw;
+  height: 85vh;
   display: flex;
   align-content: space-between;
   position: relative;
@@ -32,7 +64,7 @@ background-color: transparent;
   top: 0;
   width: 52px;
   height:  52px;
-  background-color: #1976d2;
+  background-color:var(--bluecolor) ;
   z-index: 1000;
   border-bottom-right-radius: 4px;
 }
@@ -43,7 +75,7 @@ background-color: transparent;
   top: 0;
   width: 52px;
   height:  52px;
-  background-color: #d32f2f;
+  background-color:var(--redcolor);
   border-bottom-left-radius: 4px;
 
 }
@@ -54,7 +86,7 @@ background-color: transparent;
   bottom:  0;
   width: 52px;
   height:  52px;
-  background-color: #ed6c02;
+  background-color: var(--orangecolor);
   border-top-left-radius: 4px;
 }
 
@@ -64,7 +96,7 @@ background-color: transparent;
   bottom: 0;
   width: 52px;
   height:  52px;
-  background-color: #2e7d32;
+  background-color:var(--greencolor);
   border-top-right-radius: 4px;
 }
 
@@ -103,7 +135,7 @@ background-color: transparent;
   width: 100%;
   position: absolute;
   top:0;
-  border: 2px solid white;
+  border: 2px solid var(--textcolor);
   border-radius: 0px 100px  0px 0px;
   background-color: rgb(33, 20, 228);
   opacity: .5;
@@ -121,7 +153,7 @@ background-color: transparent;
   position: relative;
   height: 20%;
   width: 100%;
-  background-color: #1976d2;
+  background-color:var(--bluecolor);
 }
 
 .button__area {
@@ -203,10 +235,10 @@ background-color: transparent;
   }
   .mail_div
   {
-    background-color: #9c27b0;
+    background-color:var(--purbecolor);
     height: 100%;
     width: 25%;
-    color:white;
+    color:var(--textcolor);
     border-radius: 4px 0px 0px 40px;
     display: flex;
     align-items: center;
@@ -216,21 +248,21 @@ background-color: transparent;
   .whatsapp_div
   {
  
-    background-color: #2e7d32;
+    background-color:var(--greencolor);
     height: 100%;
     width: 25%;
-    color:white;
+    color:var(--textcolor);
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .linkdn_div
   {
-    background-color: #d32f2f;
+    background-color:var(--redcolor);
   
     height: 100%;
     width: 25%;
-    color:white;
+    color:var(--textcolor);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -238,10 +270,10 @@ background-color: transparent;
   }
   .twter_div
   {
-    background-color: #1976d2;
+    background-color:var(--bluecolor);
     height: 100%;
     width: 25%;
-    color:white;
+    color:var(--textcolor);
     border-radius: 0px 4px 40px 0px;
     display: flex;
     align-items: center;
@@ -250,13 +282,15 @@ background-color: transparent;
   }
   .facebook_div
   {
-    background-color: #01579b;
+    background-color:var(--bluelightcolor);
     height: 100%;
     width: 25%;
-    color:white;
+    color:var(--textcolor);
     display: flex;
     align-items: center;
     justify-content: center;
+    /* font-size: 2rem; */
+    /* font-weight: 200; */
 
   }
   .wave{
@@ -271,3 +305,99 @@ background-color: transparent;
     background-image:url("../src/assets/wave.svg"); 
    
   }
+  .swiper_div{
+    width: 100%;
+    height: 70%;
+    user-select: none;
+    background-color: transparent;
+  }
+  .swiper {
+    width: 90%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .swiper-slide:nth-child(1n) {
+    border: 5px solid black;
+    border-image-outset:150px;
+    border-image: url('/src/assets/prevWorker/alsuraia.png') 30;
+    background-color: var(--bluecolor);
+    opacity: .5;
+    
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    border: 5px solid black;
+    border-image-outset:150px;
+    border-image: url('/src/assets/prevWorker/alsuraia.png') 30;
+    background-color:var(--purbecolor);
+    opacity: .5;
+
+   
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    background-color:var(--greencolor);
+    opacity: .5;
+  }
+  
+  .swiper-slide:nth-child(4n) {
+    background-color:var(--orangecolor);
+    opacity: .5;
+  }
+  
+  .swiper-slide:nth-child(5n) {
+    background-color:var(--redcolor);
+    opacity: .5;
+  }
+  
+   
+  .swiper_div .swiper-button-next {
+    color: var(--textcolor);
+    top:30px
+
+  }
+ .swiper_div .swiper-button-prev{
+    color: var(--textcolor);
+    
+    
+   
+    top:30px
+
+  }
+
+  .swiper-button-next:after {
+    font-family: swiper-icons;
+    /* font-size: var(--swiper-navigation-size); */
+    text-transform: none!important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+}
+.div_worker{
+  /* position: absolute; */
+  /* top:100px; */
+  border-radius: 100px;
+  width: 20%;
+  /* background-color: #2e7d32; */
+  margin: 0 auto;
+}
+.img_worker{
+  width: 100%;
+  /* aspect-ratio: 1/1; */
+  object-fit: contain;
+  border-radius: 100px;
+  opacity: .5;
+
+}
+ 
