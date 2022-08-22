@@ -48,7 +48,7 @@ export const BodyContainer=({data,linkx}) => {
       borderColor:"primary.main",
       // borderRadius: "0px 100px  0px 0px",
       backgroundColor: "background.paper",
-      backgroundImage:'url("../src/assets/bg.png")' ,
+      backgroundImage:'url("/src/assets/bg.png")' ,
       overflow:'auto'
 
       

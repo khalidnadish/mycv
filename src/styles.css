@@ -35,7 +35,7 @@ transition: all 0.5s 0s ease;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background:url("../src/assets/bg.png"); 
+  background:url("/src/assets/bg.png"); 
   margin: auto;
 }
 
@@ -302,7 +302,7 @@ background-color: transparent;
   /* background-color:red; */
   height:  50%;
 
-    background-image:url("../src/assets/wave.svg"); 
+    background-image:url("/src/assets/wave.svg"); 
    
   }
   .swiper_div{
